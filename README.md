@@ -16,7 +16,7 @@ Use the jsDelivr CDN — fast, cached globally, and pinned to `main`:
 
 ```html
 <img
-  src="https://cdn.jsdelivr.net/gh/Antler-VC/antler-brand-assets/antler-logo.svg"
+  src="https://cdn.jsdelivr.net/gh/Antler-VC/antler-ai-brand-assets/antler-logo.svg"
   alt="Antler"
   height="32"
 />
@@ -28,7 +28,7 @@ For long-lived pages where you want the asset to never change, pin to a commit S
 
 ```html
 <img
-  src="https://cdn.jsdelivr.net/gh/Antler-VC/antler-brand-assets@<commit-sha>/antler-logo.svg"
+  src="https://cdn.jsdelivr.net/gh/Antler-VC/antler-ai-brand-assets@<commit-sha>/antler-logo.svg"
   alt="Antler"
   height="32"
 />
@@ -37,7 +37,7 @@ For long-lived pages where you want the asset to never change, pin to a commit S
 ### Raw GitHub URL (fallback)
 
 ```
-https://raw.githubusercontent.com/Antler-VC/antler-brand-assets/main/antler-logo.svg
+https://raw.githubusercontent.com/Antler-VC/antler-ai-brand-assets/main/antler-logo.svg
 ```
 
 Slower than jsDelivr and not CDN-cached — prefer jsDelivr.
